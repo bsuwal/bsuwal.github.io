@@ -9,7 +9,6 @@ title: "Asan Chowk"
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
 
 # Dimensions
 max_width: 800px

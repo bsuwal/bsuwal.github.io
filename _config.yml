@@ -2,7 +2,7 @@ lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: "https://asanchowk.github.io" # the base hostname & protocol for your site
-
+title: "Asan Chowk"
 
 # -----------------------------------------------------------------------------
 # Layout

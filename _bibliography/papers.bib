@@ -1,0 +1,28 @@
+---
+---
+
+@string{aps = {American Physical Society,}}
+
+@article{CensusDP,
+  abbr={DP@Census},
+  title={Private Numbers in Public Policy: Census, Differential Privacy, and Redistricting},
+  author={Aloni Cohen and Moon Duchin and JN Matthews and Bhushan Suwal},
+  abstract={
+The 2020 Decennial Census in the United States was released with a new disclosure avoidance system in place, putting differential privacy in the spotlight for a wide range of data users. We consider several key applications of census data in redistricting, developing tools and demonstrations for practitioners who are concerned about the impacts of this new noising algorithm called TopDown. Based on a close look at nine localities in Texas and Arizona, we find reassuring evidence that TopDown did not threaten the ability to balance districts, to describe their demographic composition accurately, or to detect signals of racial polarization.
+},
+  journal={Harvard Data Science Review},
+  year={2022},
+  html={https://hdsr.mitpress.mit.edu/pub/954ycugm/release/1},
+  code={https://github.com/mggg/census-diff-privacy}
+}
+
+@article{shortbursts,
+  title={Voting Rights, Markov Chains, and Optimization by Short Bursts},
+  author={Sarah Cannon and Ari Goldbloom-Helzner and Varun Gupta and JN Matthews and Bhushan Suwal},
+  journal={In submission},
+  year={2019},
+  abbr={shortbursts},
+  arxiv={2011.02288},
+  abstract={Finding extreme outliers in probability distributions can be a hard problem. Taking a real example from Voting Rights Act enforcement, we consider the problem of maximizing the number of simultaneous majority-minority districts in a political districting plan. An unbiased random walk on districting plans is unlikely to find plans that approach this maximum. A common search approach is to use a biased random walk: preferentially select districting plans with more majority-minority districts. Here, we present a third option, called short bursts, in which an unbiased random walk is performed for a small number of steps (called the burst length), then re-started from the most extreme plan that was encountered in the last burst. We give empirical evidence that short-burst runs outperform biased random walks for the problem of maximizing the number of majority-minority districts. Abstracting from our use case, we also consider short bursts where the underlying state space is a line with various probability distributions, and then explore some features of more complicated state spaces and how these impact the effectiveness of short bursts. In all of these cases, we compare efficacy for various burst lengths.},
+  code={https://github.com/vrdi/shortbursts-gingles}
+}

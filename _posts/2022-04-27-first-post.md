@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Here we go again...
+description: Where this is going, a subtitle, that is long enought that i want to seee that it will format well hopefully.
 date: 2022-04-27
-description: Starting a blog
-categories: 
+categories:
 ---
 {% include figure.html path="assets/img/start-a-blog.png" class="img-fluid rounded z-depth-1" %}
 

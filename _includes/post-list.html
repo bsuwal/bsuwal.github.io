@@ -1,0 +1,15 @@
+<div class="post">
+  <ul class="post-list">
+    <table class="table table-sm table-borderless">
+      {% for post in site.posts %}
+        <tr>
+          <td scope="row">{{ post.date | date: "%b %-d, %Y" }}</td>
+            <td>
+              <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a><br>
+              {{post.description}}
+            </td>
+        </tr>
+    {% endfor %}
+  </table>
+  </ul>
+</div>

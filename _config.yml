@@ -18,10 +18,6 @@ max_width: 800px
 
 permalink: /blog/:year/:title/
 
-# Pagination
-pagination:
-  enabled: true
-
 # Markdown and syntax highlight
 markdown: kramdown
 highlighter: rouge

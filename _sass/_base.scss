@@ -586,3 +586,33 @@ html.transition *:after {
   font-size: 0.875rem;
   padding-top: 0.25rem;
 }
+
+
+.wrap {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.mono {
+  font-family: monospace;
+}
+.nav {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.nav a {
+  color: rgba(0, 0, 0, 0.6);
+  text-decoration: none;
+  border-bottom: none;
+  font-size: 12px;
+}
+.nav a:hover {
+  font-weight: bold;
+}
+.nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+.nav ul li {
+  display: inline;
+  margin-right: 10px;
+}

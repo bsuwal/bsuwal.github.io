@@ -3,7 +3,7 @@ layout: post
 title: How I think BeReal will die
 date: 2022-09-19
 description:
-categories: social-media
+tags: social-media
 ---
 People are super excited about BeReal these days. Their glowing reviews are basically exactly what BeReal advertises itself to be. That it is a great way to check in with close friends. They like the non-performative aspect of it. That the feed doesn't get saved so you don't spend time on it.
 

@@ -7,3 +7,4 @@ While my blog posts are intended to be stand-alone, they are often related to ot
 
 * <a href="/notebooks/cyborgism.html"> Cyborgism </a>
 * <a href="/notebooks/trees.html"> Random Walks and Spanning Trees </a>
+* <a href="/notebooks/ml.html"> Machine Learning </a>

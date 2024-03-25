@@ -1,19 +1,19 @@
 ---
 layout: post
-title: Random walks and Uniform Spanning Trees
+title: Neural Networks
 description:
-permalink: /notebooks/trees.html
+permalink: /notebooks/neuralnets.html
 ---
-I love thinking about random walks on graphs, and using them to generate uniform spanning trees.
+These posts are currently on the approximation error of neural networks for
+different interesting but simple functions.
 
 <br>
 <b>Posts:<b>
-{% for post in site.tags.trees %}
+{% for post in site.tags.neuralnets %}
 <li>
 <a href="{{ post.url }}">{{ post.date | date: '%Y %b %d' }}:    {{ post.title }}</a>
 </li>
 {% endfor %}
-
 
 <br>
 <br>
@@ -27,7 +27,5 @@ I love thinking about random walks on graphs, and using them to generate uniform
 The majority of the following will never become posts, but it is helpful for me
 to have this list regardless.
 <ul>
-<li>Laplacian matrix interpretation from multivariable calculus.</li>
-<li>Generating a uniform spanning tree using the Matrix Tree Theorem</li>
-<li>Green's function</li>
+<li>Approximating f(x)=x^2</li>
 </ul>

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: about
+title: Asan Chowk | About
 permalink: /about.html
 ---
 I have intended to start a blog for quite some while. I think clearest when I write (a lesson I seem to forget all too often) and I wish to write more this year as I grow as a researcher, and to also have a repository where I can easily access my thoughts.

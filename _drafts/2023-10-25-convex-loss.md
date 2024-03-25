@@ -3,6 +3,7 @@ layout: post
 title: Some convex loss functions
 description: Basically taking some second derivatives for a sanity check.
 date: 2023-10-25
+permalink: /convex-loss-functions.html
 tags: learning
 ---
 

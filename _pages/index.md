@@ -1,6 +1,6 @@
 ---
 layout: default
-title: blog
+title: Asan Chowk
 permalink: /
 ---
 {% include post-list.html %}

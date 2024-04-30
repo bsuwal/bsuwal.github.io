@@ -14,12 +14,6 @@ I love thinking about random walks on graphs, and using them to generate uniform
 </li>
 {% endfor %}
 
-
-<br>
-<br>
-<br>
-<br>
-<br>
 <br>
 <br>
 <b>A wishlist of things I wish to learn and make posts about:</b>

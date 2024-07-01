@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Random walks and Uniform Spanning Trees
+title: Markov Chains and Random walks
 description:
-permalink: /notebooks/trees.html
+permalink: /notebooks/randomwalks.html
 ---
 I love thinking about random walks on graphs, and using them to generate uniform spanning trees.
 
 <br>
 <b>Posts:<b>
-{% for post in site.tags.trees %}
+{% for post in site.tags.randomwalks %}
 <li>
 <a href="{{ post.url }}">{{ post.date | date: '%Y %b %d' }}:    {{ post.title }}</a>
 </li>

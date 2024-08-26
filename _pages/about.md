@@ -11,4 +11,5 @@ I will write about myself here, someday.
 <li><a href="https://mathbabe.org/">mathbabe</a></li>
 <li><a href="https://oeis.org/">OEIS</a></li>
 <li><a href="https://www.shroudedincloaksofboringness.com/">Shrouded in Cloaks of Boringness</a></li>
+<li><a href="https://en.wikipedia.org/wiki/List_of_mathematical_series">List of mathematical series</a></li>
 </ul>

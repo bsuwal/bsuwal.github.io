@@ -1,9 +1,56 @@
   {%- if site.enable_math -%}
   <!-- MathJax -->
   <script type="text/javascript">
+    // Bhushan: this page was built by referring to https://tanjim131.github.io/2020-05-19-how-to-write-mathjax-in-beautiful-jekyll/
     window.MathJax = {
       tex: {
-        tags: 'ams'
+        packages: {'[+]': ['newcommand', 'color']},
+        inlineMath: [['$','$']],
+        // displayMath: [['$$', '$$'],['\[', '\]']],
+        // Bhushan - I don't know why the above line doesn't work, so I commented it out.
+        macros: {
+            bold: ["{\\bf #1}", 1],
+
+            // Greek Symbols
+            a: ["\\alpha"],
+            b: ["\\beta"],
+            d: ["\\delta"],
+            t: ["\\tau"],
+            e: ["\\varepsilon"],
+            E: ["\\mathbb{E}"],
+            R: ["\\mathbb{R}"],
+            N: ["\\mathbb{N}"],
+            F: ["\\mathcal{F}"],
+            H: ["\\mathcal{H}"],
+            X: ["\\mathcal{X}"],
+            bigO: ["\\mathcal{O}"],
+            Pn: ["\\mathbb{P}_n"],
+            1: ["\\mathbb{1}"],
+            Var: ["\\text{Var}"],
+            sgn: ["\\text{sgn}"],
+            Var: ["\\text{Var}"],
+            argmin: ["\\text{argmin}"],
+            argmax: ["\\text{argmax}"],
+
+            // Shortcuts
+            fracin: ["\\frac{1}{n}"],
+            sumin: ["\\sum_{i=1}{n}"],
+            prodin: ["\\prod_{i=1}{n}"],
+            finF: ["f \\in \\mathcal{F}"],
+            hinH: ["h \\in \\mathcal{H}"],
+            fh: ["\\hat{f}"],
+            fs: ["f^*"],
+            limn: ["\\lim_{n \\rightarrow \\infty}"],
+        },
+        tags: 'ams',
+        processEscapes: true,
+        processEnvironments: true,
+        processRefs: true,
+        digits: /^(?:[0-9]+(?:\{,\}[0-9]{3})*(?:\.[0-9]*)?|\.[0-9]+)/,
+        tagSide: 'right',
+        tagIndent: '0.8em',
+        useLabelIds: true,
+        multlineWidth: '85%',
       }
     };
   </script>

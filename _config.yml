@@ -55,7 +55,7 @@ plugins:
   - jekyll-paginate-v2
   - jekyll-sitemap
   - jekyll-target-blank
-  - jekyll/scholar
+  - jekyll-scholar
   - jemoji
 
 # Sitemap settings

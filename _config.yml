@@ -3,6 +3,7 @@ icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name
 
 url: "https://asanchowk.github.io" # the base hostname & protocol for your site
 title: "Asan Chowk"
+repository: asanchowk/asanchowk.github.io
 
 # -----------------------------------------------------------------------------
 # Layout

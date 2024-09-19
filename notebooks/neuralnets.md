@@ -7,7 +7,6 @@ permalink: /notebooks/neuralnets.html
 These posts are currently on the approximation error of neural networks for
 different interesting but simple functions.
 
-<br>
 <b>Posts:<b>
 {% for post in site.tags.neuralnets %}
 <li>
@@ -15,12 +14,7 @@ different interesting but simple functions.
 </li>
 {% endfor %}
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+
 <br>
 <b>A wishlist of things I wish to learn and make posts about:</b>
 

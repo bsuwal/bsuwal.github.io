@@ -2,6 +2,12 @@
  * Styles for the base elements of the theme.
  ******************************************************************************/
 
+// Bhushan's additions
+img[alt=center-img] { display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;}
+
 // Typography
 
 p, h1, h2, h3, h4, h5, h6, em, div, li, span, strong {

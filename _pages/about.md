@@ -3,7 +3,9 @@ layout: default
 title: Asan Chowk | About
 permalink: /about.html
 ---
-I will write about myself here, someday.
+This is an online repository for Bhushan's thoughts.
+
+Any comments or remarks should be sent to bhushan_suwal@live.com. 
 
 <b>Blogroll/Useful links:</b>
 <ul>

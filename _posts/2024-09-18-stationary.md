@@ -8,4 +8,4 @@ tags: markovchains mixing randomwalks
 ---
 [This writeup is available here as a pdf.]({{ site.baseurl }}{% link assets/docs/stationary.pdf%}) _We point the reader to [this post]({{ site.baseurl }}{% link _posts/2024-09-18-mc-notation.md%}) for the notation used in this blog post._
 
-This post follows the exposition of {% cite LP17 %}, but in a (be warned!) idiosyncratic and verbose manner.
+This post follows the exposition of {% cite LP17 %}, but in a verbose manner.

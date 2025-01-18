@@ -4,7 +4,7 @@ title:  Taking Markov Steps
 description: We walk through a simple example of a random walk on a finite graph.
 date: 2024-09-28
 permalink: /blog/taking_markov_steps.html
-tags: markovchains mixing randomwalks
+tags: markovchains mixing randomwalks main
 ---
 _This is a post I had originally written in April 2019. I post it here now with some modifications for clarity._
 

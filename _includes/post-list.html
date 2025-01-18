@@ -1,7 +1,7 @@
 <div class="post">
   <ul class="post-list">
     <table class="table table-sm table-borderless">
-      {% for post in site.posts %}
+      {% for post in site.tags.main %}
         <tr>
           <td scope="row" class="date-width">{{ post.date | date: "%b %-d, %Y" }}</td>
             <td>

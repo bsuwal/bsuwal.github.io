@@ -4,7 +4,7 @@ title: ReLu NNs to compute some basic functions
 description: We construct ReLu NNs that that compute the addition, maximum and absolute value functions.
 date: 2024-03-30
 permalink: /blog/simple_nns.html
-tags: neuralnets
+tags: neuralnets main
 ---
 This post will construct some tiny neural networks that compute some well known functions. We will be using the popular ReLu activation function:
 

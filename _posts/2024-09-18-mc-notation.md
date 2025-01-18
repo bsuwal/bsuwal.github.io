@@ -4,7 +4,7 @@ title: Notation for Markov Chains
 description: A post containing the notation for all Markov Chain posts on this blog.
 date: 2024-09-18
 permalink: /blog/mc_notation.html
-tags: markovchains mixing randomwalks
+tags: markovchains mixing randomwalks main
 ---
 
 In this post I establish the notation used in posts on Markov Chains on this blog. Unless otherwise specified within the post, you should assume that this is the notation being used.

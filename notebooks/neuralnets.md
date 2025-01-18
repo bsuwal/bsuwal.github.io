@@ -13,13 +13,3 @@ different interesting but simple functions.
 <a href="{{ post.url }}">{{ post.date | date: '%Y %b %d' }}:    {{ post.title }}</a>
 </li>
 {% endfor %}
-
-
-<br>
-<b>A wishlist of things I wish to learn and make posts about:</b>
-
-The majority of the following will never become posts, but it is helpful for me
-to have this list regardless.
-<ul>
-<li>Approximating f(x)=x^2</li>
-</ul>

@@ -14,9 +14,9 @@ I love thinking about random walks and Markov Chains.
 {% endfor %}
 
 <br>
-<b>A wishlist of things I wish to learn and make posts about:</b>
+<b>Potential future posts may include:</b>
 <ul>
-<li>Laplacian matrix interpretation from multivariable calculus.</li>
+<li>The multivariable calculus interpretation of the Laplacian matrix</li>
 <li>Generating a uniform spanning tree using the Matrix Tree Theorem</li>
 <li>Green's function</li>
 </ul>

@@ -4,7 +4,7 @@ title: Lower Bounds on Markov Chains - The Counting Bound
 description: We follow the exposition of Levin and Peres to describe the counting bound, which is a way to lower bound the mixing times of Markov Chains.
 date: 2024-08-26
 permalink: /blog/counting_bound.html
-tags: markovchains mixing randomwalks
+tags: markovchains mixing randomwalks main
 ---
 
 Let $\{X_t\} : t\geq 0$ be a discrete Markov Chain defined on the state space $\mathcal{X}$ that has a stationary distribution $\pi$. Define $\X^x_t$ to be the state of sets accessible from state $x$ at time step $t$.  Finally, define

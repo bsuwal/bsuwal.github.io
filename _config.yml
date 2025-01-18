@@ -58,6 +58,7 @@ plugins:
   - jekyll-target-blank
   - jekyll-scholar
   - jemoji
+  - jekyll-last-modified-at
 
 # Sitemap settings
 defaults:
@@ -89,6 +90,8 @@ jekyll-archives:
     tag: '/blog/tag/:name/'
 
 
+last-modified-at:
+    date-format: '%B %d %Y'
 # -----------------------------------------------------------------------------
 # Responsive WebP Images
 # -----------------------------------------------------------------------------

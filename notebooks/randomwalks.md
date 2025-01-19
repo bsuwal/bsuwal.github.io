@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: notebook
 title: Markov Chains and Random walks
 description:
 permalink: /notebooks/randomwalks.html

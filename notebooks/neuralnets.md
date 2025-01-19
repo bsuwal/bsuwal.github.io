@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: notebook
 title: Neural Networks
 description:
 permalink: /notebooks/neuralnets.html

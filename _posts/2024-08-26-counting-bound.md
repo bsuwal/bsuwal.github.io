@@ -73,5 +73,6 @@ $$
 which could still be a useful albeit looser bound.
 
 ___
+**Footnotes:**
 
 [^1]: This upper bound is trivial because the maximum size of $\X^x_t$ at $t=1$ is $\Delta$, and at $t=2$ is $\Delta^2$, and so on.

@@ -58,7 +58,6 @@ plugins:
   - jekyll-target-blank
   - jekyll-scholar
   - jemoji
-  - jekyll-last-modified-at
 
 # Sitemap settings
 defaults:

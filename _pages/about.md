@@ -3,9 +3,9 @@ layout: default
 title: Asan Chowk | About
 permalink: /about.html
 ---
-This is an online repository for Bhushan's thoughts.
+I am Bhushan, and this site is a collection of my thoughts and writings.
 
-Any comments or remarks should be sent to bhushan_suwal@live.com. 
+Any comments or remarks should be sent to bhushan_suwal@live.com. I am also currently looking for a job in data science and/or software development. 
 
 <b>Blogroll/Useful links:</b>
 <ul>

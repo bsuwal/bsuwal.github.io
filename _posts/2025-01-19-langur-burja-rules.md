@@ -3,6 +3,7 @@ layout: post
 title: The rules of Langur Burja
 description: Stating the rules of this popular Nepali board game and considering some alternate payoff schemes.
 date: 2025-01-19
+last_modified_at: 2025-01-19
 permalink: /langur_burja_rules.html
 tags: langur_burja nepal main
 ---

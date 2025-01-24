@@ -3,6 +3,7 @@ layout: post
 title: Existence and Uniqueness of The Stationary Distribution
 description: Assume a finite irreducible and aperiodic Markov Chain $\{X_t\}_{t \geq 0}$ with transition matrix $P$. We prove, by construction, the existence of the stationary distribution $\pi$ for every such Markov Chain.
 date: 2024-09-18
+last_modified_at: 2024-09-18
 permalink: /blog/stationary.html
 tags: markovchains mixing randomwalks main
 ---

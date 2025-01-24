@@ -3,6 +3,7 @@ layout: post
 title:  Taking Markov Steps
 description: We walk through a simple example of a random walk on a finite graph.
 date: 2024-09-28
+last_modified_at: 2024-09-28
 permalink: /blog/taking_markov_steps.html
 tags: markovchains mixing randomwalks main
 ---

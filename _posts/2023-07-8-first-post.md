@@ -3,6 +3,7 @@ layout: post
 title: Kicking off this blog
 description: A short, hope-filled post to kick-off this website.
 date: 2023-07-08
+last_modified_at: 2023-07-08
 permalink: /kickoff.html
 tags: main
 ---

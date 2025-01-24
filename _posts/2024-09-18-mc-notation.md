@@ -3,6 +3,7 @@ layout: post
 title: Notation for Markov Chains
 description: A post containing the notation for all Markov Chain posts on this blog.
 date: 2024-09-18
+last_modified_at: 2024-09-18
 permalink: /blog/mc_notation.html
 tags: markovchains mixing randomwalks main
 ---

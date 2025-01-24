@@ -32,8 +32,7 @@ layout: default
 
   <article class="post-content">
     {{ content }}
-    <hr>
-  <i>This page was last modified on {% last_modified_at %}.</i>
   </article>
-
+  <hr>
+  <i>This page was last modified on {{ page.last_modified_at | date: "%B %-d, %Y"}}.</i>
 </div>

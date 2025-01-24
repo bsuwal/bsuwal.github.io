@@ -89,9 +89,6 @@ jekyll-archives:
   permalinks:
     tag: '/blog/tag/:name/'
 
-
-last-modified-at:
-    date-format: '%B %d %Y'
 # -----------------------------------------------------------------------------
 # Responsive WebP Images
 # -----------------------------------------------------------------------------

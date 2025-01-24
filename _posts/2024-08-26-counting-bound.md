@@ -3,6 +3,7 @@ layout: post
 title: Lower Bounds on Markov Chains - The Counting Bound
 description: We follow the exposition of Levin and Peres to describe the counting bound, which is a way to lower bound the mixing times of Markov Chains.
 date: 2024-08-26
+last_modified_at: 2024-08-26
 permalink: /blog/counting_bound.html
 tags: markovchains mixing randomwalks main
 ---

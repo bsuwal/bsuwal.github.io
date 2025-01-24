@@ -5,7 +5,9 @@ permalink: /about.html
 ---
 I am Bhushan, and this site is a collection of my thoughts and writings.
 
-Any comments or remarks should be sent to bhushan_suwal@live.com. I am also currently looking for a job in data science and/or software development. 
+Any comments or remarks should be sent to bhushan_suwal@live.com. I am also currently looking for a job in data science and/or software development.
+
+Asan Chowk is a square in Kathmandu that is at the intersection of two ancient trade routes between Tibet and India. This resulted in the square becoming a busy marketplace where one could (and still can) find all kinds of wares. I chose this as the name for my blog as a place to put my own various wares (thoughts). 
 
 <b>Blogroll/Useful links:</b>
 <ul>

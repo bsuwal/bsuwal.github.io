@@ -1,9 +1,9 @@
 ---
 layout: post
 title: The rules of Langur Burja
-description: Stating the rules of this popular Nepali board game and considering some alternate payoff schemes.
+description: We state the rules of this popular Nepali betting game. We consider some alternate payoff schemes and argue against them.  
 date: 2025-01-19
-last_modified_at: 2025-01-19
+last_modified_at: 2025-01-26
 permalink: /langur_burja_rules.html
 tags: langur_burja nepal main
 ---
@@ -18,7 +18,7 @@ The following are the rules of the game, as played canonically.
 | ![center-img]({{ site.url }}/assets/img/langur_burja/board.png) |
 |:--:|
 | *Starting from the top left, the symbols are Jhandi/Langur ("झण्डी"/"लङ्गुर"), Burja ("बुर्जा"), Eet ("ईट"), Paan ("पान"), Surat ("सुरत") and Chidi ("चिडी").* |
-| *Img from https://www.pgyer.com/apk/zh/apk/com.samanrai.khorkhore* |
+| *<small>Img from https://www.pgyer.com/apk/zh/apk/com.samanrai.khorkhore</small>* |
 
 * The player puts an original bet amount (colloquially called "बोट", and henceforth referred to as "bet amount") on one or more symbols.  
 
@@ -28,17 +28,31 @@ The following are the rules of the game, as played canonically.
 |:--:|
 | *Langur Burja dice.* |
 
-Suppose the Player bets Rs 1 on a symbol. Let $k \in \\{0, 1, 2, 3, 4, 5, 6\\}$  be the number of dice that show the Player's chosen symbol. The House distributes the payoff in the following manner:
+Suppose the Player bets Rs 1 on a symbol. Let $k \in \\{0, 1, 2, 3, 4, 5, 6\\}$  be the number of dice that show the Player's chosen symbol. *For the rest of the post, we will operate in this setting.*
+
+The House distributes the payoff in the following manner:
 1. If $k \in \\{0, 1\\}$, the Player loses their bet amount.
 2. If $k > 1$, the Player's payoff is $k$ i.e the Player's payoff is the bet amount multiplied by the number of times the symbol appears. [^1]
 
 ```
-Example scenario:
-The Player bets Rs 1 on the Paan symbol. The rolled dice show 3 Paan, 2 Surat and 1 Chidi.
-The House pays the Player Rs 1 * 3 + Rs 1 = Rs 4. The Player's payoff is Rs 3.
+Example 0:
+The Player bets Rs 1 on the Paan symbol. The rolled dice shows 0 Paan in total.
+The House pays nothing to the player. The Player's payoff is  -1.
 ```
 
-Supposing the Player bets Rs 1 on a symbol, the following map shows the payoff the Player gets when $k$ dice show the Player's chosen symbol:
+```
+Example 1:
+The Player bets Rs 1 on the Paan symbol. The rolled dice shows 1 Paan in total.
+The House pays nothing to the player. The Player's payoff is -1.
+```
+
+```
+Example 2:
+The Player bets Rs 1 on the Paan symbol. The rolled dice shows 3 Paan in total.
+The House pays Rs 1 * 3 + Rs 1 = Rs 4 to the player. The Player's payoff is Rs 3.
+```
+
+The following map shows the payoff the Player gets when $k$ dice show the Player's chosen symbol:
 
 $$
 \begin{aligned}
@@ -58,17 +72,21 @@ $$
 \end{aligned}
 $$
 
-Readers who wish to simply learn the rules of the game can stop reading here. The rules are simple enough (especially if you pay a few rounds). However, the reason we made this post was to contrast it with some similar-sounding variants of the payoff rules that seemed reasonable at first glance, but do not make sense upon more thought.
+Readers who wish to simply learn the rules of the game can stop reading here. The rules are simple enough (especially if you pay a few rounds). However, the reason we made this post was to consider some similar-sounding variants of the payoff rules that seemed reasonable at first glance, but do not make sense upon more thought.
 
-> Somewhat surprisingly, there does not seem to be consensus on what the payoff rules are, which is rather important because the House advantage may actually end up being *negative* with very simple innocuous modifications to the rules. For example, <a href="https://www.playonlinedicegames.com/jhandi-munda">this online game</a> uses Alternate payoff scheme 3, and other sites seem to have entirely different rules. For what it is worth, we initially thought Alternative payoff scheme 2 was the real game.
+**Somewhat surprisingly, the rules available online do not seem to agree across sources. For example, <a href="https://www.playonlinedicegames.com/jhandi-munda">this online game</a> uses the below mentioned Alternate payoff scheme 3, and other sites seem to have entirely different rules. For what it is worth, we ourselves initially thought Alternative payoff scheme 2 was the real payoff scheme.**
 
+**Getting the rules correct is very  important because the House advantage may end up being negative (or atleast non-positive) with very simple-sounding modifications to the rules. In fact, we (empirically) observe that to be true for all the forthcoming payoff schemes in this post.**
+
+<hr>
 #### **Alternate payoff scheme 1:**
-Under this scheme, which I call the Lenient बोट फिर्ता regime, the House distributes the payoff in the following manner. The way it departs from the payoff scheme above is highlighted in bold. Suppose the Player bets Rs 1 on a symbol. Let $k \in \\{0, 1, 2, 3, 4, 5, 6\\}$  be the number of dice that show the Player's chosen symbol.
+Under this scheme, which we call the Lenient बोट फिर्ता regime, the House distributes the payoff in the following manner. The way it departs from the payoff scheme above is highlighted in bold.
+
 1. If $k = 0$, the Player loses their bet amount i.e payoff is -1.
 2. **If $k = 1$, the House returns the Player's original bet amount (i.e बोट फिर्ता)**. The Player's payoff in this scenario is 0.
 2. If $k > 1$, then the Player's payoff is $k$, the bet amount multiplied by the number of times the symbol appears.
 
-Under this payoff scheme, the payoff the Player gets when $k$ dice show the Player's chosen symbol:
+The payoff the Player gets when $k$ dice show the Player's chosen symbol:
 
 $$
 \begin{aligned}
@@ -94,12 +112,13 @@ The reason why this payoff scheme does not make sense (for the House) is that th
 
 While this is true for our game of 6 symbols and 6 fair dice, this also happens to be true whenever the number of symbols equals the number of fair dice (for eg, if we were to play with only 2 symbols and a fair coin instead). Interestingly, the house advantage in this setting stays around the 0.264 mark even with increasing $N$.
 
-This is illustrated in the following figure:
+This is illustrated in the following figure. The $N=6$ case is our familiar case of playing with 6 dice.
 ![bot-firta]({{ site.url }}/assets/img/langur_burja/alternate-scheme-1.png)
 
 
 #### **Alternate payoff scheme 2:**
-Under this scheme, which I call the Strict बोट फिर्ता regime, the House distributes the payoff in the following manner. The way it departs from the payoff scheme above is highlighted in bold. Suppose the Player bets Rs 1 on a symbol. Let $k \in \\{0, 1, 2, 3, 4, 5, 6\\}$  be the number of dice that show the Player's chosen symbol.
+Under this scheme, which we call the Strict बोट फिर्ता regime, the House distributes the payoff in the following manner. The way it departs from the regular payoff scheme above is again highlighted in bold.
+
 1. If $k = 0$, the Player loses their bet amount.
 2. **If $k = 1$, the House returns the Player's original bet amount (i.e बोट फिर्ता)**. The Player's payoff in this scenario is 0.
 2. **If $k > 1$, then the Player's payoff is (k-1).**
@@ -126,11 +145,11 @@ $$
 
 The reason why this payoff scheme does not make sense (for the House) is because the expected payoff for the Player for any round in this case is 0. This means that the House advantage in any round is also 0, and therefore there is no reason for the House to play this game.
 
-The following figure shows that this is true as long as the number of symbols equals the number of fair dice:
+The following figure shows that this is true as long as the number of symbols equals the number of fair dice. The $N=6$ case is our canonical case of playing with 6 dice.
 ![bot-firta]({{ site.url }}/assets/img/langur_burja/alternate-scheme-2.png)
 
 #### **Alternate payoff scheme 3:**
-Under this scheme, the House distributes the payoff in the following manner. The way it departs from the payoff scheme above is highlighted in bold. Suppose the Player bets Rs 1 on a symbol. Let $k \in \\{0, 1, 2, 3, 4, 5, 6\\}$  be the number of dice that show the Player's chosen symbol.
+Under this scheme, the House distributes the payoff in the following manner. The way it departs from the regular payoff scheme is again highlighted in bold.
 1. If $k = 0$, the Player loses their bet amount.
 2. **If $k > 0$, then the Player's payoff is k.**
 
@@ -154,7 +173,7 @@ $$
 \end{aligned}
 $$
 
-Again, this simple variation leads to the expected payoff of the Player to be positive, therefore we don't think it makes sense for the House to play this game.
+Again, this simple variation leads to the expected payoff of the Player to be positive, therefore we don't think it makes sense for the House to play this game. The $N=6$ case is our canonical case of playing with 6 dice.
 ![bot-firta]({{ site.url }}/assets/img/langur_burja/alternate-scheme-3.png)
 ---
 **Footnotes:**

@@ -5,7 +5,7 @@
         <tr>
           <td scope="row" class="date-width">{{ post.date | date: "%b %-d, %Y" }}</td>
             <td>
-              <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a><br>
+              <a class="post-link" href="{{ post.url | relative_url }}"><b> {{ post.title }} </b> </a><br>
               {{post.description}}
             </td>
         </tr>

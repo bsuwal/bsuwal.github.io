@@ -4,7 +4,7 @@ title: Langur Burja (लंगुर बुर्जा)
 description:
 permalink: /notebooks/langur_burja.html
 ---
-The following are posts about the popular board game Langur Burja, played in the hills of Nepal. I used to see people play it on the street near my home in Bhaktapur during Dashain, but I must have been sixteen when I played it myself for the first time myself when Thulo Mommy brought it for Bhai Tika.
+The following are posts about the popular betting game Langur Burja, played in the hills of Nepal. I used to see people play it on the street near my home in Bhaktapur during Dashain, but I must have been sixteen when I played it myself for the first time myself when Thulo Mommy brought it for Bhai Tika.
 
 | ![center-img]({{ site.url }}/assets/img/langur_burja/dice.png) |
 |:--:|
@@ -27,3 +27,6 @@ In future posts we wish to study the canonical Langur Burja game (6 symbols, 6 d
 <li>It is a folklore claim that to win at Langur Burja you need to consistently make small bets across the board. We suspect that this must be false, but could we show it (or the converse) explicitly?</li>
 <li>How does the effect of having multiple players who bet across the board affect the House's winnings?</li>
 </ol>
+
+**Interesting future directions:**
+* In [this post]({{ site.baseurl }}/langur_burja_structure.html) we have empirically observed that the House has an advantage as long as the number of face in the dice is greater than or equal to the number of dice. We suspect that proving this as a necessary and sufficient condition may be a straightforward task. 

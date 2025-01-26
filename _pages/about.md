@@ -9,7 +9,7 @@ Any comments or remarks should be sent to bhushan_suwal@live.com. I am also curr
 
 Asan Chowk is a square in Kathmandu that is at the intersection of two ancient trade routes between Tibet and India. This resulted in the square becoming a busy marketplace where one could (and still can) find all kinds of wares. I chose this as the name for my blog as a place to put my own various wares (thoughts).
 
-(I have been notified that this site does not render well on mobile. While I would love to, I do not currently have plans to remedy this in the near future, sorry for the experience if you are on mobile!!)
+*(I have been notified that this site does not render well on mobile. While I would love to, I do not currently have plans to remedy this in the near future, sorry for the experience if you are on mobile!!)*
 
 <b>Blogroll/Useful links:</b>
 <ul>

@@ -3,7 +3,7 @@ layout: post
 title: The Column-Row factorization $(A = CR)$
 description: We describe how every matrix $A \in \R^{m \times n}$ with rank $c \geq 1$ can be factorized into $A = CR$ where $C \in \R^{m \times c}$ and $R \in \R^{c \times n}$.
 date: 2025-04-17
-last_modified_at: 2025-04-17
+last_modified_at: 2025-04-18
 permalink: /cr_factorization.html
 tags: main linear_algebra matrix_factorization
 ---
@@ -147,14 +147,14 @@ $$
 ---
 
 #### **Some Remarks**
-One might ask, reasonably, why one would be interested in this specific matrix factorization. Here are some immediate reasons I can think of, but I am sure there are (many) more:
+One might ask, reasonably, why one would be interested in this specific matrix factorization. Here are some immediate reasons we can think of, but undoubtedly there are (many) more:
 
 1. It demonstrates easily what the rank of the matrix is, and also indicate the linearly independent columns. The rank tells the dimension of the range of the linear transformation and the linearly independent columns are the basis vectors of the range, so this representation seems useful.
 2. It seems to be used as tool to prove the important result that row rank = column rank (i.e that the number of linearly independent rows of a matrix is the same as the number its linearly independent columns! We do not prove this result in this post.)
 
-I think the first of these points makes it particularly useful for pedagogy. [^1] It explicitly shows that any matrix can be distilled into its essential bones (the basis vectors) and the columns of the matrix are simply linear combinations of these basis vectors.
+We think the first of these points makes it particularly useful for pedagogy. [^1] It explicitly shows that any matrix can be distilled into its essential bones (the basis vectors) and the columns of the matrix are simply linear combinations of these basis vectors.
 
-I also believe that this is a fundamental decomposition that can also be used to possibly interpret other matrix decompositions. For example, the $QR$ decomposition is the special case of the $CR$ decomposition with the additional property that the basis vectors (i.e columns of $C$) are orthogonal. [^2]
+Since this matrix decomposition seems so fundamental, we think that it can be used to possibly interpret other matrix decompositions too. For example, the $QR$ decomposition is the special case of the $CR$ decomposition with the additional property that the basis vectors (i.e columns of $C$) are orthogonal. [^2]
 
 ---
 **Footnotes:**

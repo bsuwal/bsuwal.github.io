@@ -30,3 +30,4 @@ We wish to hopefully cover the following factorizations in future posts:
 
 * [This paper](https://math.mit.edu/~gs/everyone/lucrweb.pdf) describes a $A = CW^{-1}B$
 factorization that it calls "magic".
+* [Nick Hingham's "What is" series of blogposts](https://nhigham.com/index-of-what-is-articles/) seem like an incredible resource.

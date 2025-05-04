@@ -3,7 +3,7 @@ layout: post
 title: The Column-Row factorization $(A = CR)$
 description: We describe how every matrix $A \in \R^{m \times n}$ with rank $c \geq 1$ can be factorized into $A = CR$ where $C \in \R^{m \times c}$ and $R \in \R^{c \times n}$.
 date: 2025-04-17
-last_modified_at: 2025-04-18
+last_modified_at: 2025-05-03
 permalink: /cr_factorization.html
 tags: main linear_algebra matrix_factorization
 ---
@@ -143,6 +143,90 @@ $$
 8 & 2 & 1
 \end{bmatrix}}
 $$
+
+---
+#### **The row space of $A$ is in the span of the rows of $R$**
+Consider a matrix $A \in \R^{2 \times 2}$. We know that it has a $CR$ factorization, and let it be the following one:
+
+$$
+\underset{\large{C}}{
+\begin{bmatrix}
+a & b \\
+c & d
+\end{bmatrix}}
+\underset{\large{R}}{
+\begin{bmatrix}
+e & f \\
+g & h
+\end{bmatrix}}
+=
+\underset{\large{A = CR}}{
+\begin{bmatrix}
+ae+bg & af+bh \\
+ce +dg & cf + dh
+\end{bmatrix}}
+$$
+
+We now make two observations:
+
+1. The $k$'th column of $CR$ is the linear combination of the the columns of $C$, with the coefficients coming from the $k$'th column of $R$.
+
+For example, look at column 1 of $CR$:
+
+$$
+\begin{bmatrix}
+ae+bg  \\
+ce +dg
+\end{bmatrix}
+=
+e
+\begin{bmatrix}
+a \\
+c
+\end{bmatrix}
++
+g
+\begin{bmatrix}
+b \\
+d
+\end{bmatrix}
+$$
+
+This is not surprising, as this statement is simply another way of stating that $C$ holds the basis vectors of $A$.
+
+
+2. The $k$'th row of $CR$ is the linear combination of the rows of $R$, with the coefficients coming from the $k$'th row of $C$.
+
+For example, look at row 1 of $CR$:
+
+$$
+\begin{bmatrix}
+ae+bg  & af+bh
+\end{bmatrix}
+=
+\begin{bmatrix}
+ae & af
+\end{bmatrix}
++
+\begin{bmatrix}
+bg & bh
+\end{bmatrix}
+=
+a
+\begin{bmatrix}
+e & f
+\end{bmatrix}
++
+b
+\begin{bmatrix}
+g & h
+\end{bmatrix}
+$$
+
+
+
+This implies that the row space of $A$ is in the span of the rows of $R$.
+
 
 ---
 

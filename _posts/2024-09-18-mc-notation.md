@@ -78,5 +78,5 @@ $$
 But this seems almost obvious to state in retrospect. It simply states that the weighted average of a number, when the weights sum to 1, is that number itself.
 
 ---
-**Bibliography**
+##### Bibliography
 {% bibliography --cited %}

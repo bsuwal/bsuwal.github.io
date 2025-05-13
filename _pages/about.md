@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Asan Chowk | About
-permalink: /about.html
+permalink: /about
 ---
 I am Bhushan, and this site is a collection of my thoughts and writings.
 

@@ -4,7 +4,7 @@ title: Some notes on Lawler's 'Expected hitting times of a random walk on a grap
 description: My notes on this already very readable paper.
 date: 2023-10-21
 last_modified_at: 2023-10-21
-permalink: /lawler1986.html
+permalink: /blog/lawler1986.html
 tags: trees probability randomwalks main
 ---
 [My notes on Lawler's Expected hitting times for a random walk on a connected graph.]({{ site.url }}/assets/docs/lawler.pdf)

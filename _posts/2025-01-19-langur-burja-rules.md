@@ -4,7 +4,7 @@ title: The rules of Langur Burja
 description: We state the rules of this popular Nepali betting game. We consider some alternate payoff schemes and argue against them.  
 date: 2025-01-19
 last_modified_at: 2025-01-26
-permalink: /langur_burja_rules.html
+permalink: /blog/langur_burja_rules.html
 tags: langur_burja nepal main
 ---
 _We point the reader to [this notebook]({{ site.baseurl }}/notebooks/langur_burja.html) for other posts in this series. We also thank Suman Nepal for (re-)teaching us how to play Langur Burja in October 2024._
@@ -35,19 +35,19 @@ The House distributes the payoff in the following manner:
 2. If $k > 1$, the Player's payoff is $k$ i.e the Player's payoff is the bet amount multiplied by the number of times the symbol appears. [^1]
 
 ```
-Example 0:
+Example A:
 The Player bets Rs 1 on the Paan symbol. The rolled dice shows 0 Paan in total.
 The House pays nothing to the player. The Player's payoff is  -1.
 ```
 
 ```
-Example 1:
+Example B:
 The Player bets Rs 1 on the Paan symbol. The rolled dice shows 1 Paan in total.
 The House pays nothing to the player. The Player's payoff is -1.
 ```
 
 ```
-Example 2:
+Example C:
 The Player bets Rs 1 on the Paan symbol. The rolled dice shows 3 Paan in total.
 The House pays Rs 1 * 3 + Rs 1 = Rs 4 to the player. The Player's payoff is Rs 3.
 ```
@@ -74,12 +74,12 @@ $$
 
 Readers who wish to simply learn the rules of the game can stop reading here. The rules are simple enough (especially if you pay a few rounds). However, the reason we made this post was to consider some similar-sounding variants of the payoff rules that seemed reasonable at first glance, but do not make sense upon more thought.
 
-**Somewhat surprisingly, the rules available online do not seem to agree across sources. For example, <a href="https://www.playonlinedicegames.com/jhandi-munda">this online game</a> uses the below mentioned Alternate payoff scheme 3, and other sites seem to have entirely different rules. For what it is worth, we ourselves initially thought Alternative payoff scheme 2 was the real payoff scheme.**
+Somewhat surprisingly, the rules available online do not seem to agree across sources. For example, <a href="https://www.playonlinedicegames.com/jhandi-munda">this online game</a> uses the below mentioned Alternate payoff scheme 3, and other sites seem to have entirely different rules. For what it is worth, we ourselves initially thought Alternative payoff scheme 2 was the real payoff scheme.
 
-**Getting the rules correct is very  important because the House advantage may end up being negative (or atleast non-positive) with very simple-sounding modifications to the rules. In fact, we (empirically) observe that to be true for all the forthcoming payoff schemes in this post.**
+Getting the rules correct is very  important because the House advantage may end up being negative (or atleast non-positive) with very simple-sounding modifications to the rules. In fact, we (empirically) observe that to be true for all the forthcoming payoff schemes in this post.
 
 <hr>
-#### **Alternate payoff scheme 1:**
+##### Alternate payoff scheme 1:
 Under this scheme, which we call the Lenient बोट फिर्ता regime, the House distributes the payoff in the following manner. The way it departs from the payoff scheme above is highlighted in bold.
 
 1. If $k = 0$, the Player loses their bet amount i.e payoff is -1.
@@ -116,7 +116,7 @@ This is illustrated in the following figure. The $N=6$ case is our familiar case
 ![bot-firta]({{ site.url }}/assets/img/langur_burja/alternate-scheme-1.png)
 
 
-#### **Alternate payoff scheme 2:**
+##### Alternate payoff scheme 2:
 Under this scheme, which we call the Strict बोट फिर्ता regime, the House distributes the payoff in the following manner. The way it departs from the regular payoff scheme above is again highlighted in bold.
 
 1. If $k = 0$, the Player loses their bet amount.
@@ -148,7 +148,7 @@ The reason why this payoff scheme does not make sense (for the House) is because
 The following figure shows that this is true as long as the number of symbols equals the number of fair dice. The $N=6$ case is our canonical case of playing with 6 dice.
 ![bot-firta]({{ site.url }}/assets/img/langur_burja/alternate-scheme-2.png)
 
-#### **Alternate payoff scheme 3:**
+##### Alternate payoff scheme 3:
 Under this scheme, the House distributes the payoff in the following manner. The way it departs from the regular payoff scheme is again highlighted in bold.
 1. If $k = 0$, the Player loses their bet amount.
 2. **If $k > 0$, then the Player's payoff is k.**
@@ -176,6 +176,6 @@ $$
 Again, this simple variation leads to the expected payoff of the Player to be positive, therefore we don't think it makes sense for the House to play this game. The $N=6$ case is our canonical case of playing with 6 dice.
 ![bot-firta]({{ site.url }}/assets/img/langur_burja/alternate-scheme-3.png)
 ---
-**Footnotes:**
+##### Footnotes
 
 [^1]: Note that the House also returns the Player's original bet amount to the Player, but this amount is not counted as part of the payoff.

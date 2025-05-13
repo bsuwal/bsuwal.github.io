@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Asan Chowk | microblog
-permalink: /microblog.html
+permalink: /microblog
 ---
 These are "micro"-posts too small and spontaneous to be regular blog posts.
 

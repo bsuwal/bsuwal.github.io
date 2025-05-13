@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Asan Chowk | notebooks
-permalink: /notebooks.html
+permalink: /notebooks
 ---
 These notebooks are just that - notebooks. They might be reading lists, groups of posts that I have written, or whatever.
 

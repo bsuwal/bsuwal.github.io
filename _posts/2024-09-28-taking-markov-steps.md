@@ -42,7 +42,7 @@ $$
 \end{equation*}
 $$
 
-### **A step at a time**
+##### A step at a time
 To take a Markov Step we simply multiply our position vector $X_0$ by the transition matrix from the right. The resulting vector $X_1$ gives us the probabilities of where the random walker will be at after taking 1 step:
 
 $$
@@ -93,7 +93,7 @@ $$
 
 ---
 
-##### **Sanity Check**
+##### A sanity Check
 This is a good time to pause and inspect that the numbers make sense. We have claimed that $X_t$ contains the vector of probabilities that the random walker is at a node. Representing each 'hop' or time-step as a $\rightarrow$, let's see all the different nodes we can arrive to in two time-steps if we start at node $A$.
 
 $$
@@ -126,7 +126,7 @@ X_t = X_{t-1} \cdot P = X_{t-2} \cdot P \cdot P = \cdots = X_0 P^t
 $$
 
 
-#### **The stationary distribution emerges**
+##### The stationary distribution emerges
 The above equation leads us to now believe that the matrix $P^t$ is an object of interest. At this point we will compute it for our above transition matrix for $t=100$.
 
 The following is a snippet of code written in Julia:

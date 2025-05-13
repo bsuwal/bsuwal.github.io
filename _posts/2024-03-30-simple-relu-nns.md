@@ -15,7 +15,7 @@ $$
 
 for $x \in \mathbb{R}$.
 
-### Addition
+##### Addition
 Let us start with a super simple function, one that adds two numbers:
 
 $$
@@ -38,7 +38,7 @@ $$
 
 We are now on our way to make more complicated functions.
 
-### Absolute value function
+##### Absolute value function
 We now try to compute
 
 $$

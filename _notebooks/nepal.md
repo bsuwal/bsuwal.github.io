@@ -3,6 +3,7 @@ layout: notebook
 title: Nepal
 description:
 nb_tag: nepal
+permalink: /notebooks/nepal
 last_modified_at: 2025-05-12
 ---
 I enjoy reading about the history and culture of Nepal broadly and the Kathmandu Valley specifically.

@@ -2,7 +2,7 @@
 layout: notebook
 title: Langur Burja (लंगुर बुर्जा)
 description:
-permalink: /notebooks/langur_burja.html
+permalink: /notebooks/langur_burja
 nb_tag: langur_burja
 last_modified_at: 2025-01-26
 ---

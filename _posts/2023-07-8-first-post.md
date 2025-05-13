@@ -4,7 +4,7 @@ title: Kicking off this blog
 description: A short, hope-filled post to kick-off this website.
 date: 2023-07-08
 last_modified_at: 2023-07-08
-permalink: /kickoff.html
+permalink: /blog/kickoff.html
 tags: main
 ---
 This is the first of hopefully many blog posts.

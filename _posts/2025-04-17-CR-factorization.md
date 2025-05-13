@@ -4,7 +4,7 @@ title: The Column-Row factorization $(A = CR)$
 description: We describe how every matrix $A \in \R^{m \times n}$ with rank $c \geq 1$ can be factorized into $A = CR$ where $C \in \R^{m \times c}$ and $R \in \R^{c \times n}$.
 date: 2025-04-17
 last_modified_at: 2025-05-03
-permalink: /cr_factorization.html
+permalink: /blog/cr_factorization.html
 tags: main linear_algebra matrix_factorization
 ---
 In this post we will describe the interesting fact that _every_ matrix can be factorized in the following way:
@@ -80,7 +80,7 @@ This factorization is sometimes also called ``rank factorization`` or the ``rank
 
 Given a matrix factorization, it is a natural question to ask if it is unique. We will now show that:
 
-##### **A column row factorization is not unique.**
+##### A column row factorization is not unique.
 
 We will demonstrate this by simply showing two possible column-row factorizations for an example matrix.
 
@@ -145,7 +145,7 @@ $$
 $$
 
 ---
-#### **The row space of $A$ is in the span of the rows of $R$**
+##### The row space of $A$ is in the span of the rows of $R$
 Consider a matrix $A \in \R^{2 \times 2}$. We know that it has a $CR$ factorization, and let it be the following one:
 
 $$
@@ -229,8 +229,7 @@ This implies that the row space of $A$ is in the span of the rows of $R$.
 
 
 ---
-
-#### **Some Remarks**
+##### Some Remarks
 One might ask, reasonably, why one would be interested in this specific matrix factorization. Here are some immediate reasons we can think of, but undoubtedly there are (many) more:
 
 1. It demonstrates easily what the rank of the matrix is, and also indicate the linearly independent columns. The rank tells the dimension of the range of the linear transformation and the linearly independent columns are the basis vectors of the range, so this representation seems useful.
@@ -241,7 +240,7 @@ We think the first of these points makes it particularly useful for pedagogy. [^
 Since this matrix decomposition seems so fundamental, we think that it can be used to possibly interpret other matrix decompositions too. For example, the $QR$ decomposition is the special case of the $CR$ decomposition with the additional property that the basis vectors (i.e columns of $C$) are orthogonal. [^2]
 
 ---
-**Footnotes:**
+##### Footnotes:
 
 [^1]: Professor Strang [seems to agree.](https://www.norbertwiener.umd.edu/FFT/2020/Faraway%20Slides/Faraway%20Strang.pdf) He also has [a paper](https://math.mit.edu/~gs/everyone/lucrweb.pdf) that expands on this as well as shows an algorithm to do this decomposition using Gaussian Elimination.
 

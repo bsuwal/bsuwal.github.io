@@ -9,9 +9,13 @@ img[alt=center-img] { display: block;
   width: 50%;}
 
 // Typography
+strong, h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
 
 p, h1, h2, h3, h4, h5, h6, em, div, li, span, strong {
   color: var(--global-text-color);
+  font-family: -apple-system, sans serif;
 }
 
 hr {
@@ -27,10 +31,23 @@ table {
     }
 }
 
-a, table.table a {
+table.table a {
   color: var(--global-theme-color);
+  text-decoration: none;
   &:hover {
     color: var(--global-theme-color);
+  }
+  &:hover:after :not(.nav-item.dropdown) {
+    width: 100%;
+  }
+}
+
+a {
+  // color: var(--global-theme-color);
+  color: var(--global-text-color);
+  text-decoration: underline;
+  &:hover {
+    color: var(--global-hover-color);
     text-decoration: underline;
   }
   &:hover:after :not(.nav-item.dropdown) {
@@ -44,10 +61,12 @@ figure, img {
 
 blockquote {
   background: var(--global-bg-color);
-  border-left: 2px solid var(--global-theme-color);
-  margin: 1.5em 10px;
-  padding: 0.5em 10px;
-  font-size: 1.2rem;
+  // border-left: 10px solid var(--global-theme-color);
+  margin: 1.5em 5px;
+  padding: 0.5em 5px;
+  font-size: 1.1rem;
+  text-align: center;
+  font-style: italic;
 }
 
 // Math
@@ -93,7 +112,7 @@ blockquote {
 // Citation
 
 .citation, .citation-number {
-  color: var(--global-theme-color);
+  text-decoration: underline;;
 }
 
 // Profile
@@ -171,6 +190,7 @@ blockquote {
   }
   .navbar-brand {
     color: var(--global-text-color);
+    text-decoration: none;
   }
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
@@ -479,7 +499,7 @@ pre {
 
 code {
   color: var(--global-theme-color);
-  background-color: var(--global-code-bg-color);
+  background-color: var(--code-bg-color-light);
   border-radius: 3px;
   padding: 3px 3px;
 }

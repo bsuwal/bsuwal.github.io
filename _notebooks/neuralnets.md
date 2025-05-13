@@ -2,7 +2,7 @@
 layout: notebook
 title: Neural Networks
 description:
-permalink: /notebooks/neuralnets.html
+permalink: /notebooks/neuralnets
 nb_tag: neuralnets
 last_modified_at: 2024-03-30
 ---

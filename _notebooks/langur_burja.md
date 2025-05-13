@@ -3,6 +3,8 @@ layout: notebook
 title: Langur Burja (लंगुर बुर्जा)
 description:
 permalink: /notebooks/langur_burja.html
+nb_tag: langur_burja
+last_modified_at: 2025-01-26
 ---
 The following are posts about the popular betting game Langur Burja, played in the hills of Nepal. I used to see people play it on the street near my home in Bhaktapur during Dashain, but I must have been sixteen when I played it myself for the first time myself when Thulo Mommy brought it for Bhai Tika.
 
@@ -29,4 +31,4 @@ In future posts we wish to study the canonical Langur Burja game (6 symbols, 6 d
 </ol>
 
 **Interesting future directions:**
-* In [this post]({{ site.baseurl }}/langur_burja_structure.html) we have empirically observed that the House has an advantage as long as the number of face in the dice is greater than or equal to the number of dice. We suspect that proving this as a necessary and sufficient condition may be a straightforward task. 
+* In [this post]({{ site.baseurl }}/langur_burja_structure.html) we have empirically observed that the House has an advantage as long as the number of face in the dice is greater than or equal to the number of dice. We suspect that proving this as a necessary and sufficient condition may be a straightforward task.

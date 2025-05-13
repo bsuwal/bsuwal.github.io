@@ -33,6 +33,10 @@ kramdown:
       line_numbers: false
       start_line: 1
 
+collections:
+  notebooks:
+    output: true
+
 # Includes & excludes
 include: ['_pages']
 exclude:

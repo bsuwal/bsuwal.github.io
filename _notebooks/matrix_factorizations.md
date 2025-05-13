@@ -3,6 +3,8 @@ layout: notebook
 title: Matrix Factorization
 description:
 permalink: /notebooks/matrix_factorization.html
+nb_tag: matrix_factorization
+last_modified_at: 2025-05-03
 ---
 We wish to write a series of blog posts on the different ways one can factorize a matrix.
 

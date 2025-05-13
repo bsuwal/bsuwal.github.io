@@ -2,7 +2,8 @@
 layout: notebook
 title: Markov Chains and Random walks
 description:
-permalink: /notebooks/randomwalks.html
+nb_tag: randomwalks
+last_modified_at: 2025-05-18
 ---
 I love thinking about random walks and Markov Chains.
 

@@ -16,19 +16,13 @@ The game can be pretty chaotic (and fun) to play in large groups. <a href="https
 
 The Julia code used to generate the plots in these posts <a href="https://github.com/bsuwal/langur_burja">is linked here</a>.
 
-<b>Posts:<b>
+###### Posts:
 {% for post in site.tags.langur_burja %}
-<li>
-<a href="{{ post.url }}">{{ post.date | date: '%Y %b %d' }}:    {{ post.title }}</a>
-</li>
+- <a href="{{ post.url }}">{{ post.date | date: '%Y %b %d' }}:    {{ post.title }}</a>
 {% endfor %}
 ---
 
-In future posts we wish to study the canonical Langur Burja game (6 symbols, 6 dice) more. Some questions we wish to answer are
-<ol>
-<li>It is a folklore claim that to win at Langur Burja you need to consistently make small bets across the board. We suspect that this must be false, but could we show it (or the converse) explicitly?</li>
-<li>How does the effect of having multiple players who bet across the board affect the House's winnings?</li>
-</ol>
-
-**Interesting future directions:**
-* In [this post]({{ site.baseurl }}/langur_burja_structure.html) we have empirically observed that the House has an advantage as long as the number of face in the dice is greater than or equal to the number of dice. We suspect that proving this as a necessary and sufficient condition may be a straightforward task.
+In future posts we wish to study the canonical Langur Burja game (6 symbols, 6 dice) more. Some directions that we think are interesting are
+1.  It is a folklore claim that to win at Langur Burja you need to consistently make small bets across the board. We suspect that this must be false, but could we show it (or the converse) explicitly?
+2. How does the effect of having multiple players who bet across the board affect the House's winnings?
+3.  In [this post]({{ site.baseurl }}/langur_burja_structure.html) we have empirically observed that the House has an advantage as long as the number of face in the dice is greater than or equal to the number of dice. We suspect that proving this as a necessary and sufficient condition may be a straightforward task.

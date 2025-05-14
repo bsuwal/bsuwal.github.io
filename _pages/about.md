@@ -25,10 +25,11 @@ _(I have been notified that this site does not render well on mobile. While I wo
 
 <b>Blogroll/Useful links:</b>
 <ul>
-<li><a href="https://cstheory.stackexchange.com/">CS Theory StackExchange</a></li>
 <li><a href="https://arob5.github.io/blog/"> Andrew Roberts </a></li>
 <li><a href="https://whereamiandwhatisgoingon.wordpress.com/">Shane Woolley</a></li>
 <li><a href="https://www.shroudedincloaksofboringness.com/">Shrouded in Cloaks of Boringness (Dan Bouk)</a></li>
 <li><a href="https://made-not-found-by-danah-boyd.ghost.io/"> Made Not Found (danah boyd)</a></li>
 <li><a href="https://mathbabe.org/">mathbabe</a></li>
+<li><a href="https://cstheory.stackexchange.com/">CS Theory StackExchange</a></li>
+<li><a href="https://en.wikipedia.org/wiki/List_of_inequalities">List of Concentration Inequalities</a></li>
 </ul>

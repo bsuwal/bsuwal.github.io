@@ -3,3 +3,16 @@ microposts:
   - date: 2025-05-12
     post: This is my first micropost!
     tag:
+
+  - date: 2025-05-14
+    post: In the programming sense, parameters passed to functions are called "arguments".
+          <a href="https://softwareengineering.stackexchange.com/questions/186293/why-are-actual-parameters-called-arguments">
+          This stackoverflow thread</a> says that arguments mean "something from which another thing may be deduced"
+          (so, more in line with the colloquial use of the word "argument").
+    tag: etymology software
+
+  - date: 2025-05-14
+    post: Why does $\{ \vec{0} \}$ have dimension 0?
+          As <a href="https://math.stackexchange.com/questions/664594/why-mathbf0-has-dimension-zero">this thread</a>
+          clarified, vectors themselves do not have dimension, subspaces do.
+    tag: linear_algebra

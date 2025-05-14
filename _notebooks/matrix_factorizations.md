@@ -11,22 +11,18 @@ We wish to write a series of blog posts on the different ways one can factorize 
 The goal is to describe how to interpret these matrix decompositions when possible
 discuss the numerical stability of the algorithms used to generate them.
 
-<b>Posts:<b>
+###### Posts:
 {% for post in site.tags.matrix_factorization %}
-<li>
-<a href="{{ post.url }}">{{ post.date | date: '%Y %b %d' }}:    {{ post.title }}</a>
-</li>
+- <a href="{{ post.url }}">{{ post.date | date: '%Y %b %d' }}:    {{ post.title }}</a>
 {% endfor %}
 ---
 
 We wish to hopefully cover the following factorizations in future posts:
-<ol>
-<li> The LU decomposition </li>
-<li> Eigendecomposition </li>
-<li> SVD </li>
-<li> The QR decomposition </li>
-<li> Cholesky decomposition </li>
-</ol>
+- The LU decomposition
+- Eigendecomposition
+- SVD
+- The QR decomposition
+- Cholesky decomposition 
 
 **Reading list:**
 

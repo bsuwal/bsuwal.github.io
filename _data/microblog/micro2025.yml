@@ -36,19 +36,18 @@ microposts:
           <br> <br>
           And finally - <br>
             "Just as with the first generation of social media, we are woefully unprepared for the full psychological effects of this tool..."
+  - date: 2025-06-21
+    post: <p>I have been often frustrated with how dense and jargon-y some math textbooks are. I personally need everything
+          spelled out to me very very slowly and then a bunch of examples for me to feel comfortable, and textbooks seldom
+          do this at the level I want them to. </p>
 
-    - date: 2025-06-21
-      post: I have been often frustrated with how dense and jargon-y some math textbooks are. I personally need everything
-            spelled out to me very very slowly and then a bunch of examples for me to feel comfortable, and textbooks seldom
-            do this at the level I want them to.
+          <p>I realized that one reason is that they are intended to be printed, and if the authors held my hand through
+          every topic like I would want them to then the book would just be too heavy, or they would have to limit far fewer
+          topics per book than they would want. In this regard, choosing to communicate through a printed book is at conflict
+          with the amount of verbosity one might need (or atleast I need) to understand a topic. In that regard, communicating
+          through an online textbook has the advantage that you can be as verbose as you wish without additional (literal)
+          weight on the reader.</p>
 
-            I realized that one reason is that they are intended to be printed, and if the authors held my hand through
-            every topic like I would want them to then the book would just be too heavy, or they would have to limit far fewer
-            topics per book than they would want. In this regard, choosing to communicate through a printed book is at conflict
-            with the amount of verbosity one might need (or atleast I need) to understand a topic. In that regard, communicating
-            through an online textbook has the advantage that you can be as verbose as you wish without additional (literal)
-            weight on the reader.
-
-            Printed math textbooks of course have many other things going for them, and I always prefer a printed textbook
-            over looking at a screen. 
-      tag: medium_theory
+          <p>Printed math textbooks of course have many other things going for them, and I always prefer a printed textbook
+          over looking at a screen.</p>
+    tag: medium_theory

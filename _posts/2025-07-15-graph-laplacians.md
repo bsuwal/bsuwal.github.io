@@ -9,7 +9,7 @@ tags: trees probability randomwalks main laplacian
 ---
 [The main body of this write-up is a pdf linked here.]({{ site.url }}/assets/docs/laplacians.pdf)
 
-I have long wanted to get an understanding of the graph Laplacian that pops up across the computer science and mathematics literature. The Laplacian of a function, being that it captures fundamental properties of a (twice-differential) function and among other things conveys the (net) convexity of a function, is widely used tool. I especially wanted to understand how the definitions of the Laplacian of a function in a continuous setting, like
+I have long wanted to get an understanding of the graph Laplacian that pops up across the computer science and mathematics literature. The Laplacian of a function isa a widely used tool that captures fundamental properties of a (twice-differential) function and among other things conveys the (net) convexity of a function. I especially wanted to understand how the definitions of the Laplacian of a function in a continuous setting, like
 
 $$
 \Delta f = \sum_{i=1}^n \frac{\partial^2}{\partial x_i^2} f

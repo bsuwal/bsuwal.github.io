@@ -3,15 +3,16 @@ layout: post
 title: Notation for Markov Chains
 description: A post containing the notation for all Markov Chain posts on this blog.
 date: 2024-09-18
-last_modified_at: 2024-09-18
+last_modified_at: 2025-07-27
 permalink: /blog/mc_notation.html
 tags: markovchains mixing randomwalks main
 ---
 
 In this post I establish the notation used in posts on Markov Chains on this blog. Unless otherwise specified within the post, you should assume that this is the notation being used.
 
-I will try our best to stick to this notation throughout, but sometimes error happen. In such a case, let me know!
-This notation follows the notation established in {% cite LP17 %}.
+I will try my best to stick to this notation throughout, but sometimes error happen. In such a case, let me know!
+
+This notation primarily follows the notation established in {% cite LP17 %}.
 
 ---
 
@@ -50,6 +51,21 @@ $$
 
 When $X_0 = x$, we call $\t^+_x$ the ***first return time***.
 
+- $V_x$ is the number of visits to the state $x$, i.e
+
+$$V_x = \sum_{n=0}^{\infty} \1 \{ X_n = x\}$$
+
+Relatedly,
+
+$$
+\begin{aligned}
+\E[V_y | X_0 = x]
+&= \E\bigg[ \sum_{n=0}^{\infty} \1 \{ X_n = y\} \bigg| X_o = x \bigg] \\
+&= \sum_{n=0}^{\infty} \E [ \1 \{ X_n = y\} \mid X_o = x ] \\
+&= \sum_{n=0}^{\infty} \Pr [ X_n = y \mid X_o = x ] \\
+&= \sum_{n=0}^{\infty} p_n(x, y)
+\end{aligned}
+$$
 
 ---
 - ***(Stationary Distribution)***
@@ -71,11 +87,26 @@ for all $x \in \mathcal{X}$. Intuitively I interpret this as - If you start from
 
 Since $P$ is stochastic i.e its entries are non-negative and sum to 1, you can also write $\pi$ as
 
-$$
+\begin{equation} \label{pi_stochastic}
 \pi(y) = \sum_{x \in \mathcal{X}} \pi(y) \cdot P(y, x)
-$$
+\end{equation}
 
 But this seems almost obvious to state in retrospect. It simply states that the weighted average of a number, when the weights sum to 1, is that number itself.
+
+(\ref{pi_elementwise}) and (\ref{pi_stochastic}) may feel similar but a closer look shows otherwise. (\ref{pi_stochastic}) can be further factored as
+
+$$
+\pi(y) = \sum_{x \in \mathcal{X}} \pi(y) \cdot P(y, x) = \pi(y) \cdot  \underbrace{\sum_{x \in \mathcal{X}} P(y, x)}_{=1} = \pi(y)
+$$
+
+Notice that in (\ref{pi_elementwise}) we cannot factor $\pi(x)$ out.
+
+---
+#### Miscellaneous notes
+
+$$
+p_{n + m}(x, y) = \sum_{z \in \mathcal{X}} p_n(x, z) p_m(z, y)
+$$
 
 ---
 ##### Bibliography

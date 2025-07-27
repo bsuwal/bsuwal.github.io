@@ -3,7 +3,7 @@ layout: post
 title: The Graph Laplacian
 description: We try to develop an intuitive understanding of the Graph Laplacian, and elucidate connections to the Laplacian of a function in a continuous setting.
 date: 2025-07-15
-last_modified_at: 2025-07-16
+last_modified_at: 2025-07-27
 permalink: /blog/graph-laplacians.html
 tags: trees probability randomwalks main laplacian
 ---

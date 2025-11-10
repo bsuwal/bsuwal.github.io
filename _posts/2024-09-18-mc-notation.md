@@ -3,7 +3,7 @@ layout: post
 title: Notation for Markov Chains
 description: A post containing the notation for all Markov Chain posts on this blog.
 date: 2024-09-18
-last_modified_at: 2025-07-27
+last_modified_at: 2025-09-03
 permalink: /blog/mc_notation.html
 tags: markovchains mixing randomwalks main
 ---
@@ -35,7 +35,13 @@ This notation primarily follows the notation established in {% cite LP17 %}.
 
 -  A state $x$ is called ***absorbing*** if there are no outgoing transitions from the state.
 
--  A state $x$ is said to be ***transient*** if, starting from $x$, there is a non-zero probability that the chain will never return to $x$. It is ***recurrent*** otherwise.
+-  A state $x$ is said to be ***transient*** if, starting from $x$, there is a non-zero probability that the chain will never return to $x$.
+
+- A Markov Chain is is ***recurrent*** if it is not transient. A recurrent chain is one where, if the chain is run infinitely, it hits every state with probability 1. Another way to say this is that a chain is recurrent if for all $x, y \in \mathcal{X}$,
+
+$$
+\Pr[\t_x^+ < \infty \mid X_0 = y] = 1
+$$
 
 - We define the ***hitting time*** to state $x \in \mathcal{X}$ to be
 
@@ -59,7 +65,7 @@ Relatedly,
 
 $$
 \begin{aligned}
-\E[V_y | X_0 = x]
+\E_x[V_y] = \E[V_y | X_0 = x]
 &= \E\bigg[ \sum_{n=0}^{\infty} \1 \{ X_n = y\} \bigg| X_o = x \bigg] \\
 &= \sum_{n=0}^{\infty} \E [ \1 \{ X_n = y\} \mid X_o = x ] \\
 &= \sum_{n=0}^{\infty} \Pr [ X_n = y \mid X_o = x ] \\
@@ -103,6 +109,7 @@ Notice that in (\ref{pi_elementwise}) we cannot factor $\pi(x)$ out.
 
 ---
 #### Miscellaneous notes
+- For any $x, y \in \mathcal{X}$,
 
 $$
 p_{n + m}(x, y) = \sum_{z \in \mathcal{X}} p_n(x, z) p_m(z, y)

@@ -36,6 +36,7 @@ microposts:
           <br> <br>
           And finally - <br>
             "Just as with the first generation of social media, we are woefully unprepared for the full psychological effects of this tool..."
+
   - date: 2025-06-21
     post: <p>I have been often frustrated with how dense and jargon-y some math textbooks are. I personally need everything
           spelled out to me very very slowly and then a bunch of examples for me to feel comfortable, and textbooks seldom
@@ -52,9 +53,21 @@ microposts:
           over looking at a screen.</p>
     tag: medium_theory
 
-  - date: 2025-09-10
+  - date: 2025-11-10
     post: <p> Maybe one of the larger accomplishments of my life, but I finished
           reading The Power Broker by Robert Caro last month. It is one of the
           best books I have ever read. I will be going to NYC next week to do
           a tour of the places the book talks about.</p>
     tag: books
+
+  - date: 2025-11-21
+    post: <p> <a href="https://aeon.co/essays/generative-ai-has-access-to-a-small-slice-of-human-knowledge">This is a brilliant article</a>
+           on the disparities that AI is creating, and eloquently expresses ideas I have wanted to express myself for a while.
+           Certain types of knowledge (like ecology) are very locale-specific. If it happens that the way this
+           knowledge has been historically transferred is through oral history and direct apprenticeship, then these
+           crucial forms of knowledge are disadvantaged in continuing through print-driven tools like LLMs.  Most
+           indigeneous knowledge in much of the economically poorer parts of the world fall in this bucket. </p>
+    tag: ai
+
+   # - date: 2025-12-11
+   #   post: When I worked as a TA and had to produce

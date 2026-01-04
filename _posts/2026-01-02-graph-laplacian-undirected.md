@@ -1,9 +1,9 @@
 ---
 layout: post
 title: The Graph Laplacian of an undirected Graph
-description: We discuss why an undirected graph still has the notion of a Graph Laplacian, which is still $L = D-A$ just like for a directed graph, even though the notions of gradient and divergence fundamentally require directed edges.
+description: We discuss why the graph laplacian of an undirected graph is still $L = D-A$ just like for a directed graph, even though the notions of gradient and divergence fundamentally require directed edges.
 date: 2026-01-02
-last_modified_at: 2026-01-02
+last_modified_at: 2026-01-03
 permalink: /blog/graph-laplacians-undirected.html
 tags: main trees probability randomwalks laplacian
 ---

@@ -1,0 +1,23 @@
+---
+layout: notebook
+title: Some used bookstores I really like
+description: 
+nb_tag: bookstores
+permalink: /notebooks/bookstores
+last_modified_at: 2026-03-07
+---
+This is a list of some bookstores I have really liked, in no particular order. Most of them are second-hand bookstores.
+
+- <a href="https://thecornerstonebookshop.com/">The Corner Stone Bookshop</a> in Plattsburgh, NY.
+    - Cheap second hand books, three levels worth of. Great selection, very cozy.
+- <a href="https://montaguebookmill.com/">The Montague Book Mill</a> in Montague, MA.
+    - A dream come a location. It used to be a mill, and it overlooks a lovely river. Lots of academic books. I have
+    looked up for rentals in Montague with a dreamy idea of living right next to it. I would live here if I could.
+- <a href="https://maps.app.goo.gl/5GSxzkaztFsdGGrz5">Tim's Used Books</a> in Provincetown, MA.
+    - I have been to Tim's at least once a year for almost 10 years now.
+- <a href="https://maps.app.goo.gl/fTURuvYiVPqEQW6g9">Quabog Book Shop</a> in West Brookfield, MA.
+    - I loved this place. It had a couple of old esoteric books on Nepal that I bought. I could have spent days here easily.
+
+Some bookstores I would like to visit:
+* The Green Hand Bookshop in Portland, Maine.
+* Carlson Turner Books in Portland, Maine.

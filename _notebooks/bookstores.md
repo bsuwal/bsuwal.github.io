@@ -1,7 +1,7 @@
 ---
 layout: notebook
 title: Some used bookstores I really like
-description: 
+description:
 nb_tag: bookstores
 permalink: /notebooks/bookstores
 last_modified_at: 2026-03-07
@@ -17,7 +17,6 @@ This is a list of some bookstores I have really liked, in no particular order. M
     - I have been to Tim's at least once a year for almost 10 years now.
 - <a href="https://maps.app.goo.gl/fTURuvYiVPqEQW6g9">Quabog Book Shop</a> in West Brookfield, MA.
     - I loved this place. It had a couple of old esoteric books on Nepal that I bought. I could have spent days here easily.
-
-Some bookstores I would like to visit:
-* The Green Hand Bookshop in Portland, Maine.
-* Carlson Turner Books in Portland, Maine.
+- Carlson and Turner Antiquarian Books and Bookbindery in Portland, Maine.
+    - Cheap, rare books. Top, top spot.
+    

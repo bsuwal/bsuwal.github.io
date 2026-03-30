@@ -27,7 +27,7 @@ This is the statement we will work to convince ourselves of:
 This proof sketch is built upon the following sequential arguments:
 1. The Laplacian matrix $L = D - A$ exists for every directed graph $\vec{G}$.
 2. Changing the direction of a single edge in $\vec{G}$ does not change $L$.
-3. Any directed graph $\vec{G} \in S$ can be converted to $\vec{G'} \in A: \vec{G} \neq \vec{G'} $ in a finite number of single-edge direction change steps.
+3. Any directed graph $\vec{G} \in S$ can be converted to $\vec{G'} \in S: \vec{G} \neq \vec{G'} $ in a finite number of single-edge direction change steps.
 
 The first and third statements should not be controversial. We show an illustrating example why the second step is also true.[^2]
 

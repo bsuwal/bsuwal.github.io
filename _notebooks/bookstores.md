@@ -19,4 +19,7 @@ This is a list of some bookstores I have really liked, in no particular order. M
     - I loved this place. It had a couple of old esoteric books on Nepal that I bought. I could have spent days here easily.
 - Carlson and Turner Antiquarian Books and Bookbindery in Portland, Maine.
     - Cheap, rare books. Top, top spot.
-    
+- Downtown Books in Albuquerque, New Mexico.
+    - Stacks of books in a hot room with a fan that helped but not enough. The proprietor Scott was very fun to talk to.
+- Owl Pen Books in Greenwich, New York.
+    - A true hidden gem. Many amazing, old books. Found and bought the very first edition of the Power Broker here (!).

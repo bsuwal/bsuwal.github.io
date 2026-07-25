@@ -31,6 +31,17 @@ table {
     }
 }
 
+// Shared declarations for links that should look like plain text and only
+// light up in the theme color on hover (about page, microblog, ...).
+%plain-link {
+  color: var(--global-text-color);
+  text-decoration: underline;
+  &:hover {
+    color: var(--global-hover-color);
+    text-decoration: underline;
+  }
+}
+
 table.table a {
   color: var(--global-theme-color);
   text-decoration: none;
@@ -42,14 +53,21 @@ table.table a {
   }
 }
 
+// Bootstrap's own bootstrap.min.css ships an identical `table.table a`
+// selector (setting color:#212529) that has the same specificity as the
+// rule above and ignores hover entirely. Because it's the same specificity,
+// whichever stylesheet loads last normally wins the tie, which is how the
+// override above works for notebooks/post-list. For microblog we instead
+// need to beat Bootstrap's rule outright (it doesn't care about a `:not`
+// exclusion added only to our own rule), so this selector adds the
+// `.micropost-table` class to match Bootstrap's specificity and reuses
+// %plain-link rather than repeating its declarations.
+table.table.micropost-table a {
+  @extend %plain-link;
+}
+
 a {
-  // color: var(--global-theme-color);
-  color: var(--global-text-color);
-  text-decoration: underline;
-  &:hover {
-    color: var(--global-hover-color);
-    text-decoration: underline;
-  }
+  @extend %plain-link;
   &:hover:after :not(.nav-item.dropdown) {
     width: 100%;
   }
@@ -191,6 +209,13 @@ blockquote {
   .navbar-brand {
     color: var(--global-text-color);
     text-decoration: none;
+    &:hover {
+      color: var(--global-hover-color);
+      // Beats Bootstrap's `.font-weight-lighter` utility class on the
+      // brand link, which sets font-weight with !important.
+      font-weight: bold !important;
+      text-decoration: none;
+    }
   }
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
@@ -567,6 +592,7 @@ html.transition *:after {
 }
 .nav a:hover {
   font-weight: bold;
+  color: var(--global-hover-color);
 }
 .nav ul {
   list-style-type: none;

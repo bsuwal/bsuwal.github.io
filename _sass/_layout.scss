@@ -35,6 +35,14 @@ body.sticky-bottom-footer {
 
 // TODO: redefine content layout.
 
+// Short, centered rule used to separate microposts.
+.micropost-divider {
+  width: 60px;
+  margin: 1rem auto;
+  border: 0;
+  border-top: 1px solid var(--global-divider-color);
+}
+
 
 /******************************************************************************
  * Publications

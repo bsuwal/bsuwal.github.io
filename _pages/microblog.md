@@ -5,7 +5,7 @@ permalink: /microblog
 ---
 These are "micro"-posts too small and spontaneous to be regular blog posts.
 
-<table class="table table-sm table-borderless">
+<table class="table table-sm table-borderless micropost-table">
   {% assign posts = site.data.microblog.micro2025.microposts | sort: 'date' | reverse %}
   {% for post in posts %}
     <tr>
@@ -14,4 +14,9 @@ These are "micro"-posts too small and spontaneous to be regular blog posts.
           {{post.post}}
         </td>
     </tr>
+    {% unless forloop.last %}
+    <tr>
+      <td colspan="2"><hr class="micropost-divider"></td>
+    </tr>
+    {% endunless %}
 {% endfor %}

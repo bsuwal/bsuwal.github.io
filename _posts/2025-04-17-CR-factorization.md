@@ -9,7 +9,9 @@ tags: main linear_algebra matrix_factorization
 ---
 In this post we will describe the interesting fact that _every_ matrix can be factorized in the following way:
 
-**Statement 1.**  Every matrix $A \in \R^{m \times n}$ with column rank $c \geq 1$ can be factorized into $A = CR$ where $C \in \R^{m \times c}$ and $R \in \R^{c \times n}$.
+<div class="env" markdown="1">
+<span class="env-title">Statement 1.</span> Every matrix $A \in \R^{m \times n}$ with column rank $c \geq 1$ can be factorized into $A = CR$ where $C \in \R^{m \times c}$ and $R \in \R^{c \times n}$.
+</div>
 
 We prove this statement by a simple construction. Let $A_1, \dots A_n$ be the columns of $A$, i.e
 

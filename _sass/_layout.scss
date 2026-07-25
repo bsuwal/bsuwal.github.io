@@ -2,10 +2,18 @@
  * Content
  ******************************************************************************/
 
+// Almost all font-size declarations across the site are in rem, relative
+// to this root size (browser default is 16px), so dropping it here scales
+// everything down together instead of editing each rule individually.
+html {
+  font-size: 14px;
+}
+
 body {
   padding-bottom: 70px;
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
+  font-family: -apple-system, Helvetica, arial, sans-serif;
 
   h1, h2, h3, h4, h5, h6 {
     scroll-margin-top: 66px;
@@ -17,20 +25,8 @@ body.fixed-top-nav {
   padding-top: 56px;
 }
 
-body.sticky-bottom-footer {
-  // Remove padding below footer.
-  padding-bottom: 0;
-}
-
 .container {
   max-width: $max-content-width;
-}
-
-// Profile
-.profile {
-  img {
-    width: 100%;
-  }
 }
 
 // TODO: redefine content layout.
@@ -43,16 +39,18 @@ body.sticky-bottom-footer {
   border-top: 1px solid var(--global-divider-color);
 }
 
+// Boxed environment for statements/theorems/lemmas/definitions, similar to
+// LaTeX's amsthm environments (\begin{statement}, \begin{theorem}, ...).
+// Usage: <div class="env" markdown="1"><span class="env-title">Statement.</span> ...</div>
+.env {
+  border-left: 4px solid var(--global-theme-color);
+  background-color: var(--global-divider-color);
+  border-radius: 0 4px 4px 0;
+  padding: 0.75rem 1.25rem;
+  margin: 1.5rem 0;
 
-/******************************************************************************
- * Publications
- ******************************************************************************/
-
-// TODO: redefine publications layout.
-
-
-/*****************************************************************************
-* Projects
-*****************************************************************************/
-
-// TODO: redefine projects layout.
+  .env-title {
+    font-weight: bold;
+    color: var(--global-text-color);
+  }
+}

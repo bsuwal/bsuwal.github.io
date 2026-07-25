@@ -22,7 +22,9 @@ It does not seem to me that it is possible to write definitions of gradient and 
 ---
 This is the statement we will work to convince ourselves of:
 
-**Statement 1.** Let $G = (V, E)$ be an undirected graph, and $S$ be the set of all directed graphs $\vec{G} = (V, \vec{E})$ that induce $G$ as their undirected graph. Every $\vec{G} \in S$ has the same graph Laplacian $L = D - A$.
+<div class="env" markdown="1">
+<span class="env-title">Statement 1.</span> Let $G = (V, E)$ be an undirected graph, and $S$ be the set of all directed graphs $\vec{G} = (V, \vec{E})$ that induce $G$ as their undirected graph. Every $\vec{G} \in S$ has the same graph Laplacian $L = D - A$.
+</div>
 
 This proof sketch is built upon the following sequential arguments:
 1. The Laplacian matrix $L = D - A$ exists for every directed graph $\vec{G}$.

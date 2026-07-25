@@ -9,7 +9,8 @@ tags: main linear_algebra matrix_factorization
 ---
 This proof is short only because arguably the $QR$ decomposition is doing most of the heavy lifting. 
 
-**Statement**  Suppose $B$ is a positive definite matrix. Then there exists a unique upper triangular
+<div class="env" markdown="1">
+<span class="env-title">Statement.</span> Suppose $B$ is a positive definite matrix. Then there exists a unique upper triangular
 matrix $R$ with only positive numbers on its diagonal such that
 
 $$
@@ -17,6 +18,7 @@ B = R^{\ast} R
 $$
 
 where $R^{\ast}$ is the adjoint of $R$.
+</div>
 
 **Proof**
 

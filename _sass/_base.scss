@@ -47,9 +47,6 @@ table.table a {
   &:hover {
     color: var(--global-theme-color);
   }
-  &:hover:after :not(.nav-item.dropdown) {
-    width: 100%;
-  }
 }
 
 // Bootstrap's own bootstrap.min.css ships an identical `table.table a`
@@ -67,9 +64,6 @@ table.table.micropost-table a {
 
 a {
   @extend %plain-link;
-  &:hover:after :not(.nav-item.dropdown) {
-    width: 100%;
-  }
 }
 
 figure, img {
@@ -121,26 +115,6 @@ blockquote {
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
   opacity: 0.95;
-}
-.navbar .dropdown-menu {
-  background-color: var(--global-bg-color);
-  border: 1px solid var(--global-divider-color);
-  a:not(.active) {
-    color: var(--global-text-color);
-  }
-  a:hover {
-    color: var(--global-hover-color);
-  }
-  .dropdown-divider {
-    border-top: 1px solid var(--global-divider-color) !important;
-  }
-}
-.dropdown-item {
-  color: var(--global-text-color);
-    &:hover {
-      color: var(--global-hover-color);
-      background-color: var(--global-bg-color);
-    }
 }
 .navbar.navbar-light {
   a {

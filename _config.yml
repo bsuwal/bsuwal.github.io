@@ -13,8 +13,6 @@ navbar_fixed: true
 # Dimensions
 max_width: 800px
 
-# TODO: add layout settings (single page vs. multi-page)
-
 permalink: /blog/:year/:title/
 
 # Markdown and syntax highlight
@@ -72,7 +70,6 @@ defaults:
 # Jekyll optimization
 # -----------------------------------------------------------------------------
 
-
 # CSS/SASS minify
 sass:
   style: compressed
@@ -115,19 +112,9 @@ enable_math:                true   # enables math typesetting (uses MathJax)
 # Library versions
 # -----------------------------------------------------------------------------
 
-academicons:
-  version: "1.9.1"
-  integrity: "sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg="
 bootstrap:
   version: "4.6.1"
   integrity:
     css: "sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY="
-fontawesome:
-  version: "5.15.4"
-  integrity: "sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4="
 mathjax:
   version: "3.2.0"
-mdb:
-  version: "4.20.0"
-  integrity:
-    css: "sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw="

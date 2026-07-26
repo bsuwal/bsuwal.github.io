@@ -1,7 +1,7 @@
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🎲  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: "https://asanchowk.github.io" # the base hostname & protocol for your site
+url: "https://asanchowk.com" # the base hostname & protocol for your site
 title: "asan chowk"
 
 # -----------------------------------------------------------------------------
@@ -18,7 +18,6 @@ permalink: /blog/:year/:title/
 # Markdown and syntax highlight
 markdown: kramdown
 highlighter: rouge
-highlight_theme_light: github  # https://github.com/jwarby/jekyll-pygments-themes
 kramdown:
   input: GFM
   syntax_highlighter_opts:

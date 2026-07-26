@@ -40,5 +40,8 @@ Above we have used the fact that since $B$ is invertible, $A$ is also invertible
 The $R$ is unique as desired as the $QR$ decomposition is unique if $Q$ is unitary and $R$ is upper triangular with only positive entries in the diagonal.
 
 ---
-**References:**
-- {% cite ladr %}
+The primary reference used in this post is {% cite ladr %}.
+
+---
+##### Bibliography
+{% bibliography --cited %}

@@ -7,9 +7,5 @@ group :jekyll_plugins do
     gem 'jekyll-scholar'
     gem 'jekyll-sitemap'
     gem 'jekyll-target-blank'
-    gem 'jekyll-twitter-plugin'
-    gem 'unicode_utils'
     gem 'webrick'
-    gem 'htmlcompressor'
-    gem 'htmlbeautifier'
 end

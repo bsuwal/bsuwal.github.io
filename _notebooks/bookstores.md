@@ -23,3 +23,7 @@ This is a list of some bookstores I have really liked, in no particular order. M
     - Stacks of books in a hot room with a fan that helped but not enough. The proprietor Scott was very fun to talk to.
 - Owl Pen Books in Greenwich, New York.
     - A true hidden gem. Many amazing, old books. Found and bought the very first edition of the Power Broker here (!).
+- Lakeside Bookshop in Bradford, NH.
+    - Shelves upon shelves of books in two storeys of an old house, beside a lake as promised.
+- The Country Bookshop in Plainfield, VT.
+    - Tons of cheap books in a used bookstore that has been around since the early 1970s. I talked to the proprieter Mr Koenig about how he loved collecting books about bells (he reckons he might have one of the largest collections on books on bells.) I loved going here.

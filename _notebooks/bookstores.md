@@ -4,7 +4,7 @@ title: Some used bookstores I really like
 description:
 nb_tag: bookstores
 permalink: /notebooks/bookstores
-last_modified_at: 2026-03-07
+last_modified_at: 2026-08-15
 ---
 This is a list of some bookstores I have really liked, in no particular order. Most of them are second-hand bookstores.
 

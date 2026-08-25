@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+# Auto-bumps the `last_modified_at` frontmatter field to today's date on any
+# staged _posts/ or _notebooks/ file, so it never has to be set by hand.
+set -euo pipefail
+
+today=$(date +%Y-%m-%d)
+
+staged_files=$(git diff --cached --name-only --diff-filter=ACMR -- '_posts/*.md' '_notebooks/*.md')
+
+for file in $staged_files; do
+    [ -f "$file" ] || continue
+
+    if grep -q '^last_modified_at:' "$file"; then
+        perl -0pi -e "s/^last_modified_at:.*\$/last_modified_at: $today/m" "$file"
+    else
+        # No field yet: insert it just before the closing frontmatter `---`.
+        perl -0pi -e "s/^(---\n(?:.*\n)*?)---\n/\${1}last_modified_at: $today\n---\n/" "$file"
+    fi
+
+    git add "$file"
+done

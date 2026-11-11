@@ -3,7 +3,7 @@ layout: post
 title: A tour of door locking mechanisms in Nepal
 description: Commercial padlocks are the most common way to lock a door in Nepal today. I present some 
     alternate/uncommon door locking mechanisms in Kathmandu and Jumla, some (many?) of which pre-dated commercial padlocks. 
-date: 2026-09-10
+date: 2026-11-10
 last_modified_at: 2026-11-10
 permalink: /blog/nepal_locks.html
 tags: main nepal alternate_technology
